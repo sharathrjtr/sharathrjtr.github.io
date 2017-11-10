@@ -566,11 +566,11 @@ display:block;
 position:relative;
 border-radius:20px;
 margin: 0px 0px 20px 80px;
-
 }
 
 .project-info a {
-margin-left:20px;
+margin-left:10px;
+margin-top:10px;
 background-color:#192572; 
 border: none;
 border-radius:10px;

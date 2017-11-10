@@ -145,7 +145,7 @@ and imparting knowledge to new recruits for working with robots.
             <div class="row">
                 <div class="project shadow-large">
                     <!--div class="project-image"-->
-                    <div style="float:left;margin:22px 20px 22px 20px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
+                    <div style="float:left;margin:22px 20px 22px 10px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
                         <img src="images/robots_dvd2.png" />
                     </div>
                     <!-- End .project-image -->
@@ -163,7 +163,7 @@ and imparting knowledge to new recruits for working with robots.
 
                 <div class="project shadow-large">
                     <!--div class="project-image"-->
-                    <div style="float:left;margin:22px 20px 22px 20px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
+                    <div style="float:left;margin:22px 20px 22px 10px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
                         <img src="images/motion_planning_gripper2.png" />
                     </div>
                     <!-- End .project-image -->
@@ -182,7 +182,7 @@ and imparting knowledge to new recruits for working with robots.
 
                 <div class="project shadow-large">
                     <!--div class="project-image"-->
-                    <div style="float:left;margin:22px 20px 22px 20px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
+                    <div style="float:left;margin:22px 20px 22px 10px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
                         <img src="images/external_calibration2.png" />
                     </div>
                     <!-- End .project-image -->
@@ -199,7 +199,7 @@ and imparting knowledge to new recruits for working with robots.
 
                 <div class="project shadow-large">
                     <!--div class="project-image"-->
-                    <div style="float:left;margin:22px 20px 22px 20px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
+                    <div style="float:left;margin:22px 20px 22px 10px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
                         <img src="images/rack_detection.png" />
                     </div>
                     <!-- End .project-image -->
@@ -215,7 +215,7 @@ and imparting knowledge to new recruits for working with robots.
                 <!-- End .project -->
 
                 <div class="project shadow-large">
-                    <div style="float:left;margin:22px 20px 22px 20px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
+                    <div style="float:left;margin:22px 20px 22px 10px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
                         <img src="images/localization_grasping_project2.png" />
                     </div>
                     <!-- End .project-image -->
@@ -235,7 +235,7 @@ and imparting knowledge to new recruits for working with robots.
             <div class="row">
 
                 <div class="project shadow-large">
-                    <div style="float:left;margin:22px 20px 22px 20px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
+                    <div style="float:left;margin:22px 20px 22px 10px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
                         <img src="images/arc17_group.jpg" />
                     </div>
                     <div class="project-info">
@@ -252,7 +252,7 @@ competition.
                 
 
                 <div class="project shadow-large">
-                    <div style="float:left;margin:22px 20px 22px 20px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
+                    <div style="float:left;margin:22px 20px 22px 10px; border: 1px solid gray;border-radius: 4px; padding: 5px;">
                         <img src="images/apc16_group.jpg" />
                     </div>
                     
