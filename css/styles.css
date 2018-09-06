@@ -907,7 +907,7 @@ color:#374054
 }
 
 .btn-rounded-blue{
-	margin:auto;
+	margin-left:40%;
 	background-color:#192572;
 	border: none;
 	border-radius:10px;
@@ -916,11 +916,12 @@ color:#374054
 	text-align: center;
 	text-decoration: none;
 	display: inline-block;
-	font-size: 16px;
+	font-size: 16px
 }
 
 .btn-rounded-blue:hover{
 	background-color:#225ce5;
 	color:white;
-	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+	text-decoration: none
 }
