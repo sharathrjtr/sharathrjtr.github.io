@@ -568,7 +568,7 @@ border-radius:20px;
 margin: 0px 0px 20px 80px;
 }
 
-.project-info a {
+/*.project-info a {
 margin-left:26px;
 margin-top:10px;
 background-color:#192572; 
@@ -586,7 +586,29 @@ font-size: 16px;
 background-color:#225ce5;
 color:white;
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19)
+}*/
+
+.buttona {
+margin-left:26px;
+margin-top:10px;
+background-color:#192572; 
+border: none;
+border-radius:10px;
+color: white;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
 }
+
+.buttona:hover{
+background-color:#225ce5;
+color:white;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+text-decoration: none;
+}
+
 .project-info h3{
 font-size:1.5em;
 font-weight:bold;

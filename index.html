@@ -150,6 +150,25 @@ Worked on ROS platform with expertise in distributed computing with multiple mac
         <h2 class="heading">Projects</h2>
         <div class="container">
             <div class="row">
+
+                <div class="project shadow-large">
+                    <!--div class="project-image"-->
+                    <div style="float:left;margin:22px 20px 22px 10px; border: 1px solid gray;border-radius: 4px; padding: 5px; display:inline-block">
+                        <img src="images/autonomous_driving.png" />
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info">
+                        <h3>Autonomous driving on Udacity simulator using Keras CNN model</h3>
+                        <p>
+			This project is implemented as part of <a href="https://www.udemy.com/applied-deep-learningtm-the-complete-self-driving-car-course/" target="_blank">autonomous driving course </a>. The training dataset is created on one of the tracks and it is augmented using <a href="https://imgaug.readthedocs.io/en/latest/" target="_blank"> imgaug library </a>. A CNN model is developed using Keras for predicting the steering angles. The model is trained on sunny track and tested on darker track.
+                        </p>
+                        <a href="https://youtu.be/ozstXJIiAoA" target="_blank" class="buttona">View Project</a>
+                        <a href="https://www.udemy.com/certificate/UC-32KWGK3A/" target="_blank" class="buttona">View Certificate</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
                 <div class="project shadow-large">
                     <!--div class="project-image"-->
                     <div style="float:left;margin:22px 20px 22px 10px; border: 1px solid gray;border-radius: 4px; padding: 5px; display:inline-block">
@@ -161,7 +180,7 @@ Worked on ROS platform with expertise in distributed computing with multiple mac
                         <p>
 			This project implements 3D model matching using SUPER4PCS, 3D models are artificially generated using a combination of primitive shapes such as cuboid, cylinder, sphere. Principal component analysis is applied on the 3D model of the object to compute the appropriate normal for the object against which the robot has to approach the object. The touch point for suction is computed using the scene 3D points for the target object.
                         </p>
-                        <a href="https://youtu.be/4B2uRiWMH8U" target="_blank">View Project</a>
+                        <a href="https://youtu.be/4B2uRiWMH8U" target="_blank" class="buttona">View Project</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -178,9 +197,9 @@ Worked on ROS platform with expertise in distributed computing with multiple mac
                         <p>
                             This project implements the motion planning for robotic manipulators mounted with two finger gripper or suction based grasping system. Implementation of motion planning using MoveIt as planning library is done with stage wise improvements. At first in Amazon picking challenge 2016, motion plan for default orientations based on the object's location wrt the bins walls is implemented. Motion planning is improved to pick objects using a gripper with objects placed at any orientation in a rack. Further improvisation is achieved to pick an item placed with any orientation at any corner of a bin using suction. Collision avoidance was implemented using collision plates for storage rack walls and Octomaps for collision avoidance with nearby non-target items.
                         </p>
-                        <a href="https://youtu.be/UxO-BENBkC0" target="_blank">View Video 1</a>
-                        <a href="https://youtu.be/Bqm2uMTF9ig" target="_blank">View Video 2</a>
-                        <a href="https://sharathrjtr.github.io/docs/Motion_Planning_AIR_2017.pdf" target="_blank">View Paper</a>
+                        <a href="https://youtu.be/UxO-BENBkC0" target="_blank" class="buttona">View Video 1</a>
+                        <a href="https://youtu.be/Bqm2uMTF9ig" target="_blank" class="buttona">View Video 2</a>
+                        <a href="https://sharathrjtr.github.io/docs/Motion_Planning_AIR_2017.pdf" target="_blank" class="buttona">View Paper</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -197,7 +216,7 @@ Worked on ROS platform with expertise in distributed computing with multiple mac
                         <p>
 			This project deals with the calibration (estimation of transformation) between the 3D sensor and fixed robot reference frame. 3D points are collected wrt to the 3D sensor frame and wrt fixed robot reference frame. The transformation between the two sets of points is computed using SVD.
                         </p>
-                        <!--a href="#">View Project</a-->
+                        <!--a href="#">View Project</b-->
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -214,7 +233,7 @@ Worked on ROS platform with expertise in distributed computing with multiple mac
                         <p>
 			To estimate the object's location wrt the walls of bins in a storage rack it is necessary to know the corners of the every bin in the rack. The algorithm recognizes the grid pattern in the rack and computes the bin corners for all the bins.
                         </p>
-                        <!--a href="#">View Project</a-->
+                        <!--a href="#">View Project</b-->
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -230,7 +249,7 @@ Worked on ROS platform with expertise in distributed computing with multiple mac
                         <p>
 			This project implements an algorithm for computing the grasp position on novel objects without any prior information of the objects. The algorithm collects the 3D scan of an object, randomly selects the seed points from the 3D scan. For each seed point a nearest neighbour search is performed to collect all the points that are within a sphere having diameter equal to the opening width of the gripper of the robot. Surface fitting is performed using the points around the seed points, the surfaces having radius of curvature less than half the width of gripper is chosen as a candidate grasp position. After surface fitting and selection of candidate grasps for all the seed points, the candidate grasps are filtered for obtaining the grasping position that is closer to the central position of the target object 
                         </p>
-                        <a href="https://youtu.be/g2B7S7s61vo" target="_blank">View Video</a>
+                        <a href="https://youtu.be/g2B7S7s61vo" target="_blank" class="buttona">View Video</a>
                     </div>
                     <!-- End .project-info -->
                 </div>
@@ -245,8 +264,8 @@ Worked on ROS platform with expertise in distributed computing with multiple mac
                         <p>
 			This project presents the motion planning simulated in RViz environment for a custom built robotic manipulator Cool1000. The video demonstrates the capabilities of MoveIt for placing collision objects, picking and attaching an object to the gripper and transfer the object to another place. The blog presents a brief overview of steps to be followed in order to create a URDF file for a robot.
                         </p>
-                        <a href="https://youtu.be/1IkDwN0fcu8" target="_blank">View Video</a>
-                        <a href="http://aimlrobots.blogspot.in/2017/11/creating-urdf-robot-model-from-scratch.html" target="_blank">View Blog</a>
+                        <a href="https://youtu.be/1IkDwN0fcu8" target="_blank" class="buttona">View Video</a>
+                        <a href="http://aimlrobots.blogspot.in/2017/11/creating-urdf-robot-model-from-scratch.html" target="_blank" class="buttona">View Blog</a>
                     </div>
                 </div-->
                 <!-- End .project -->
@@ -267,9 +286,9 @@ Worked on ROS platform with expertise in distributed computing with multiple mac
 Japan. Won 3rd place in pick task, 5th place in stow task and 4th place in final round out of 16 teams in the
 competition.
 									</p>
-									<a href="https://sites.google.com/site/swagatkumar/iitk-tcs-arc-2017" target="_blank">IITK-TCS Website</a>
-									<a href="https://github.com/warehouse-picking-automation-challenges/team_iitk_tcs" target="_blank">Github Repository</a>
-<a href="https://www.amazonrobotics.com/site/binaries/content/assets/amazonrobotics/arc/final-scores.pdf" target="_blank">View Results</a>
+									<a href="https://sites.google.com/site/swagatkumar/iitk-tcs-arc-2017" target="_blank" class="buttona">IITK-TCS Website</a>
+									<a href="https://github.com/warehouse-picking-automation-challenges/team_iitk_tcs" target="_blank" class="buttona">Github Repository</a>
+<a href="https://www.amazonrobotics.com/site/binaries/content/assets/amazonrobotics/arc/final-scores.pdf" target="_blank" class="buttona">View Results</a>
 								</div>
 							</div>
                 
@@ -284,9 +303,9 @@ competition.
 						Member of team IITK-TCS which participated in Amazon Picking Challenge, held in RoboCup 2016, Leipzig,
 			Germany. Achieved 5th place in stow task, 10th place in pick task out of 16 teams in the competition.
 									</p>
-									<a href="https://sites.google.com/site/swagatkumar/home/apc_iitk_tcs" target="_blank">IITK-TCS Website</a>
-									<a href="https://www.amazonrobotics.com/site/binaries/content/assets/amazonrobotics/pdfs/2016-task-final-scores---pick.pdf" target="_blank">View Pick Results</a>
-									<a href="https://www.amazonrobotics.com/site/binaries/content/assets/amazonrobotics/pdfs/2016-task-final-scores---stow.pdf" target="_blank">View Stow Results</a>
+									<a href="https://sites.google.com/site/swagatkumar/home/apc_iitk_tcs" target="_blank" class="buttona">IITK-TCS Website</a>
+									<a href="https://www.amazonrobotics.com/site/binaries/content/assets/amazonrobotics/pdfs/2016-task-final-scores---pick.pdf" target="_blank" class="buttona">View Pick Results</a>
+									<a href="https://www.amazonrobotics.com/site/binaries/content/assets/amazonrobotics/pdfs/2016-task-final-scores---stow.pdf" target="_blank" class="buttona">View Stow Results</a>
 								</div>
 							</div>
 							
