@@ -33,15 +33,37 @@ To view a live demo, [click here](https://ryanfitzgerald.github.io/devportfolio/
 - [Changelog](#changelog)
 - [License](#license)
 
+## Security Updates
+
+🔒 **Security Notice**: This repository has been updated to address 13 security vulnerabilities (3 critical, 5 high, 5 moderate) that were present in the original dependencies. All build dependencies have been updated to their latest secure versions.
+
+### Key Security Improvements:
+- Updated Gulp from v3.9.1 to v4.0.2
+- Updated gulp-sass from v3.1.0 to v5.1.0 with Dart Sass
+- Updated all other dependencies to latest secure versions
+- Removed vulnerable dependency tree (old package-lock.json)
+
+For detailed information about the security fixes, see [SECURITY_UPDATE_INSTRUCTIONS.md](SECURITY_UPDATE_INSTRUCTIONS.md).
+
 ## Setup and Configuration
 
 The setup required can be broken into two types:
 1. If you want to make edits or customize the template
 2. If you just want to add your information as use as is
 
+### Prerequisites
+
+- Node.js 16+ (recommended: 18.19.0 as specified in `.nvmrc`)
+- npm (comes with Node.js)
+
 ### Making Edits / Customizing the Template
 
-To setup, simply fork the repo and run `npm install` in order to get all the Gulp dev dependencies. Next, run `Gulp watch` to compile the Sass and minify the JavaScript. Alternatively, if you don't have Gulp installed globally, you can run the npm script `npm run watch`. Any changes done to the JavaScript (js/scripts.js) or Sass (sass/styles.scss) will be autocompiled and ready to go.
+To setup, simply fork the repo and run `npm install` in order to get all the Gulp dev dependencies. Next, run `npm run watch` to compile the Sass and minify the JavaScript. Any changes done to the JavaScript (js/scripts.js) or Sass (scss/styles.scss) will be autocompiled and ready to go.
+
+**Available Scripts:**
+- `npm run watch` - Watch for changes and compile automatically
+- `npm run build` - Build scripts and styles once
+- `npm run dev` - Alias for watch command
 
 All scripts are within `js/scripts.js` and get minified to `js/scripts.min.js`. All styles are in `sass/styles.scss` and get compiled to `css/styles.css`. Both the minified scripts file and compiled CSS file are what is loaded on the page by default.
 
